@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+
+:root{
+    /* COLORS */
+    --color-primary: white;
+    --color-secondary:  #5555d4;
+    --color-white: rgba(0, 0, 0, 0.85);
+    --color-white-pur: #0c111b;
+    --color-black: rgba(0, 0, 0, 0.9);
+    --color-text: rgba(0, 0, 0, 0.7);
+    --color-body: white;
+    --color-section: white;
+
+    /* GENERAL TRANSITION */
+    --transition: all .2s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    /* background: red; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+html{
+    scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+#voitures::-webkit-scrollbar{
+    height: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#voitures::-webkit-scrollbar-thumb{
+    background-color: #0c111b85;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.before, .after{
+    position: relative;
+}
+
+.before::before, .after::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
 }

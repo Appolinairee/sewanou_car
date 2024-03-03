@@ -1,0 +1,25 @@
+button.btnComponent {
+    padding: 10px 20px;
+    background-color: var(--color-secondary);
+    border-radius: 15px 25px 25px 15px;
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--color-white-pur);
+    font-weight: bold;
+    font-size: 1rem;
+    gap: 1rem;
+    position: relative;
+    z-index: 20;
+    color: white;
+    margin: auto;
+}
+  
+button.btnComponent:hover {
+   gap: 2rem;
+}
+
+@media (max-width: 500px) {
+    button.btnComponent {
+        padding: 10px 25px;
+    }
+}
