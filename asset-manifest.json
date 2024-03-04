@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sewanou_car/static/css/main.dbf2e46b.css",
-    "main.js": "/sewanou_car/static/js/main.6e0973d0.js",
+    "main.css": "/sewanou_car/static/css/main.8dcf62bc.css",
+    "main.js": "/sewanou_car/static/js/main.9c7a53b1.js",
     "static/media/meilleur-voiture-sportive-qualite-prix-1.jpg": "/sewanou_car/static/media/meilleur-voiture-sportive-qualite-prix-1.2e7c0a4b3348f3b99af6.jpg",
     "static/media/R.jpeg": "/sewanou_car/static/media/R.5d9722ede4b6c674108b.jpeg",
     "index.html": "/sewanou_car/index.html",
-    "main.dbf2e46b.css.map": "/sewanou_car/static/css/main.dbf2e46b.css.map",
-    "main.6e0973d0.js.map": "/sewanou_car/static/js/main.6e0973d0.js.map"
+    "main.8dcf62bc.css.map": "/sewanou_car/static/css/main.8dcf62bc.css.map",
+    "main.9c7a53b1.js.map": "/sewanou_car/static/js/main.9c7a53b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf2e46b.css",
-    "static/js/main.6e0973d0.js"
+    "static/css/main.8dcf62bc.css",
+    "static/js/main.9c7a53b1.js"
   ]
 }
